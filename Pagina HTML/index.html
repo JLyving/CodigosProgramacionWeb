@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Juan Pablo" />
+    <meta
+      name="description"
+      content="this page contsins all the things I am learning how to create as I learn HTML."
+    />
+    <title>My First Web Page</title>
+    <link rel="icon" href="html5.png" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+
+  <body>
+    <h1>Hola Mundo!</h1>
+
+    <hr />
+    <nav>
+      <ul>
+        <li>
+          <a href="#html">Esto lo hice con HTML</a>
+        </li>
+        <li>
+          <a href="#vacation">Planeando una vacacion</a>
+        </li>
+      </ul>
+    </nav>
+    <hr />
+
+    <section id="html">
+      <h2>Esta pagina la hice con HTML</h2>
+      <p>Esta es mi primera pagina "web".</p>
+      <img
+        src="img/html_logo_300x300.png"
+        alt="HTML5 Logo"
+        width="300"
+        height="300"
+      />
+      <figure>
+        <figcaption>Esto es un ejemplo de codigo en HTML</figcaption>
+        <p>
+          <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+        </p>
+      </figure>
+
+      <h3>Mi horario</h3>
+      <p>Deja decirte como yo:</p>
+      <ol>
+        <li>...Aprendo cosas nuevas.</li>
+        <li>...Planeo mi horario.</li>
+        <li>
+          ...Y ocupo recursos de
+          <abbr title="Mozilla Developer Network">
+            <a href="https://developer.mozilla.org/"> MDN</a> </abbr
+          >.
+        </li>
+      </ol>
+      <br />
+      <table>
+        <caption>
+          Mi horario
+        </caption>
+        <thead>
+          <tr>
+            <th>&nbsp;</th>
+            <th scope="col">Tiempo</th>
+            <th scope="col">Actividades</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">En la mañana</th>
+            <td>
+              <time datetime="08:00">8am</time>-<time datetime="11:00"
+                >11am</time
+              >
+            </td>
+            <td>Desayunar, tomar clases</td>
+          </tr>
+          <tr>
+            <th scope="row">Descanso</th>
+            <td>
+              <time datetime="11:00">11am</time>-<time datetime="12:00"
+                >12pm</time
+              >
+            </td>
+            <td>Comer</td>
+          </tr>
+          <tr>
+            <th scope="row">En la tarde</th>
+            <td>
+              <time datetime="12:00">12pm</time>-<time datetime="17:00"
+                >5pm</time
+              >
+            </td>
+            <td>Hacer tarea, estudiar</td>
+          </tr>
+          <tr>
+            <th scope="row">En el medio dia</th>
+            <td rowspan="2">El resto del dia</td>
+            <td>Tiempo libre</td>
+          </tr>
+          <tr>
+            <th scope="row">En la noche</th>
+            <td>Dormir</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">Y eso es lo que hago los cinco dias de la semana escolar</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <hr />
+
+    <section id="vacation">
+      <h2>Estoy planeando unas vacaciones</h2>
+      <p>Me gustaria dentro de algunos meses <em>salir por mi cuenta a visitar algun lugar de la republica</em>.</p>
+      <p>yo vivo en <abbr title="Kansas">EdoMex</abbr> asi que quisiera visitar un sitio con alberca o la playa.</p>
+
+      <h3>Lugares que me gustarian visitar</h3>
+      <ul>
+        <li>
+          <p>He escuchado cosas increibles del lado del caribe entonces no estaria mal</p>
+          <figure>
+            <img
+              src="img/caribbean.jpg"
+              alt="Caribbean Beach"
+              title="I want to visit a Caribbean beach."
+              width="400"
+              height="225"
+              loading="lazy"
+            />
+            <figcaption>Caribbean Beach Getaway</figcaption>
+          </figure>
+        </li>
+        <li>
+          <p>Y he escuchado cosas interesantes de este lugar</p>
+          <address>
+            Margaritaville Island Reserve Riviera Cancun<br />
+            Bahia Petempich Puerto Morelos, Mexico<br />
+            Colonia Morelos, Mexico 77580
+          </address>
+          <figure>
+            <img
+              src="img/vacation.jpg"
+              alt="Vacation"
+              title="It's 5 o'Clock Somewhere!"
+              loading="lazy"
+              width="400"
+              height="267"
+            />
+            <figcaption>A caribbean Vacation Image</figcaption>
+          </figure>
+        </li>
+      </ul>
+
+      <!-- TODO: Add more places -->
+
+      <h3>Lugares que quisiera no ir</h3>
+      <dl>
+        <dt>Los estados del norte</dt>
+        <dd>Ultimamente son muy <strong>inseguros</strong>!</dd>
+
+        <dt>La capital</dt>
+        <dd>Siempre voy haya y necesito un cambio de aire.</dd>
+
+        <dt>Acapulco</dt>
+        <dd>He ido tantas veces que si hubiera nacionalidad acapulquence la tendria.</dd>
+      </dl>
+    </section>
+
+    <hr />
+
+    &lt;&lt;&lt; &copy; <a href="about.html"> Juan Pablo R </a> &gt;&gt;&gt;
+    <p>
+      <a href="#">Regresar al inicio</a>
+    </p>
+  </body>
+</html>
